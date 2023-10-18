@@ -1,36 +1,90 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+macro_a_s_a: macro_a_s_a{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_a";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp A>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp A>;
+};
+macro_a_s_b: macro_a_s_b{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_b";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp B>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp B>;
+};
+macro_a_s_d: macro_a_s_d{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_d";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp D>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp D>;
+};
+macro_a_s_l: macro_a_s_l{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_l";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp L>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp L>;
+};
+macro_a_s_h: macro_a_s_h{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_h";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp H>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp H>;
+};
+macro_a_s_j: macro_a_s_j{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_j";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp J>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp J>;
+};
+macro_a_s_k: macro_a_s_k{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_k";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp K>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp K>;
+};
+macro_a_s_n: macro_a_s_n{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_n";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp N>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp N>;
+};
+macro_a_s_p: macro_a_s_p{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_p";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp P>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp P>;
+};
+macro_a_s_s: macro_a_s_s{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_s";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp S>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp S>;
+};
+macro_a_s_w: macro_a_s_w{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_w";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp W>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp W>;
+};
+macro_a_s_z: macro_a_s_z{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_z";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp Z>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp Z>;
+};
+macro_a_s_i: macro_a_s_i{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_i";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp I>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp I>;
+};
+macro_a_s_enter: macro_a_s_enter{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_enter";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp ENTER>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp ENTER>;
+};
+macro_a_s_space: macro_a_s_space{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_space";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LEFT_ALT &kp LEFT_SHIFT &kp SPACE>, <&macro_pause_for_release>, <&macro_release &kp LEFT_ALT &kp LEFT_SHIFT &kp SPACE>;
+};
